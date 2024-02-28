@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>API Countries</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
@@ -13,14 +13,16 @@
             <img src="./imagenes/logo_pagina.png" >
         </a>
         <nav> 
-            <a href="#history">HISTORY</a>
-            <a href="#characteres">CHARACTERES</a>
-            <a href="#map">MAP</a>
-            <a href="#about">ABOUT TEAM CHERRY</a>
+            <div class="InputContainer">
+                <input placeholder="Search.." id="input" class="input" name="text" type="text">
+                
+              </div>
         </nav>
     </header>
-    
-    <h1>API Paises</h1>
+    <div class="contenedor" >
+        <h1>API Paises</h1>
+        <p> Conoce los paises y sus caracteristicas </p>
+    </div>
     <div id="countries-response">
     </div>
 
